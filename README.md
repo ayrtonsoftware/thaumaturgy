@@ -1,1 +1,3 @@
 # thaumaturgy
+
+Just a fun place to show how to code different algorithms.......
