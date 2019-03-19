@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
   cout << "Size: " << size << endl;
 
   float totalSwapCount = 0.0f;
-  float iterationCount = 10000.0f;
+  float iterationCount = 100000.0f;
   float maxSwapCount = std::numeric_limits<float>::min();
   float minSwapCount = std::numeric_limits<float>::max();
   
