@@ -18,7 +18,7 @@ public:
     ~Data();
     int* getData();
     void dumpData();
-    void fill();
+    void fill(int range);
     int &operator[] (int); 
 };
 

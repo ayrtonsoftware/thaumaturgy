@@ -1,0 +1,6 @@
+framework module AyrtonAppKit {
+  umbrella header "AyrtonAppKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

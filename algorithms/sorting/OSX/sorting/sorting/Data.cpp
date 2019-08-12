@@ -34,10 +34,10 @@ int &Data::operator[] (int index) {
     throw "Index out of range";
 }
 
-void Data::fill() {
+void Data::fill(int range) {
     if (count > 0 && data != NULL) {
         for (int idx = 0; idx < count; idx++) {
-            data[idx] = rand() % 10;
+            data[idx] = rand() % range;
         }
     }
 }

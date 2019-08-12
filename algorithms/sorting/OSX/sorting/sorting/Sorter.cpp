@@ -53,3 +53,37 @@ int Sorter::selectionSort(Data& data) {
     
     return swapCount;
 }
+
+void Sorter::swap(Data& data, int i, int j) {
+    int temp = data[i];
+    data[i] = data[j];
+    data[j] = temp;
+}
+
+int Sorter::partition(Data& data, int lo, int hi) {
+    int pivot = data[hi];
+    int i = lo;
+    for (int j = lo; j < hi - 1; j++) {
+        if (data[j] < pivot) {
+            swap(data, i, j);
+            i++;
+            swapCount++;
+        }
+    }
+    swap(data, i, hi);
+    return i;
+}
+
+void Sorter::quickSort(Data& data, int lo, int hi) {
+    if (lo < hi) {
+        int p = partition(data, lo, hi);
+        swapCount += partition(data, lo, p-1);
+        swapCount += partition(data, p+1, hi);
+    }
+}
+
+int Sorter::quickSort(Data& data) {
+    swapCount = 0;
+    quickSort(data, 0, size-1);
+    return swapCount;
+}

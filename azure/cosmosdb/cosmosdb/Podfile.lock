@@ -1,0 +1,28 @@
+PODS:
+  - AzureCore (0.3.0):
+    - KeychainAccess (~> 3.1)
+    - Willow (~> 5.1)
+  - AzureData (0.3.0):
+    - AzureCore (= 0.3.0)
+  - KeychainAccess (3.2.0)
+  - Willow (5.1.0)
+
+DEPENDENCIES:
+  - AzureData (~> 0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AzureCore
+    - AzureData
+    - KeychainAccess
+    - Willow
+
+SPEC CHECKSUMS:
+  AzureCore: d15d056763b4bf8e758a32232c0af7d4a19913d6
+  AzureData: 956df872ed1a9574d53e6e8ea7f8ef67ae1c04df
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  Willow: ad7f75939db11f7d56a97df2ca04405815e73125
+
+PODFILE CHECKSUM: 5241060e6d21d0c308e4e38a9ad0bb684acb144d
+
+COCOAPODS: 1.6.0.beta.2

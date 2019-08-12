@@ -1,0 +1,37 @@
+{
+  "name": "AyrtonAppKit",
+  "version": "2.0.0",
+  "summary": "Support latest Swift compiler 4.2",
+  "description": "Application Binding and extenstions to Swift",
+  "homepage": "https://github.com/ayrtonsoftware/AyrtonAppKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Michael Bergamo": "mbergamo@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:ayrtonsoftware/AyrtonAppKit.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "11.4"
+  },
+  "source_files": "AyrtonAppKit/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ReactiveCocoa": [
+      "~> 8.0.2"
+    ],
+    "RealmSwift": [
+      "~> 3.13"
+    ],
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ],
+    "SwiftyDropbox": [
+
+    ]
+  }
+}

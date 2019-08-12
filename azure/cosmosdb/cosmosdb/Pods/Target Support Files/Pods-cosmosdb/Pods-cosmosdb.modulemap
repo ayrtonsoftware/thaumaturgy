@@ -1,0 +1,6 @@
+framework module Pods_cosmosdb {
+  umbrella header "Pods-cosmosdb-umbrella.h"
+
+  export *
+  module * { export * }
+}
